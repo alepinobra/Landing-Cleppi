@@ -24,9 +24,9 @@ const Contacto = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 md:p-12 xl:p-20 bg-color_fondo"
         >
           <div className="flex flex-col gap-4 animate__animated animate__fadeIn">
-            <h1 className="text-[40px] font-bold text-primary">Contactanos para agendar tu demo!</h1>
+            <h1 className="text-[40px] font-bold text-primary">Contáctanos para para que conversemos!</h1>
             <p className="text-[20px] text-gray-500">
-              Ingresa tu mail y el equipo se va a contactar contigo para que puedas agregar Cleppi a tu farmacia con las funcionalidades de la primera versión.
+              Ingresa tus datos para que trabajemos juntos en potenciar tu farmacia.
             </p>
             <form ref={form} onSubmit={sendEmail} className="w-full">
             
@@ -36,7 +36,7 @@ const Contacto = () => {
                   name='nombre_qf'
                   type="text"
                   className="w-full bg-gray-100 py-4 pl-10 pr-36 rounded-xl outline-none"
-                  placeholder="Ingresa tu nombre"
+                  placeholder="Nombre"
                 /></div>
               
               <div className="relative p-2">
@@ -45,7 +45,7 @@ const Contacto = () => {
                   name='nombre_farmacia'
                   type="text"
                   className="w-full bg-gray-100 py-4 pl-10 pr-36 rounded-xl outline-none"
-                  placeholder="Ingresa el nombre de tu farmacia"
+                  placeholder="Farmacia"
                 /></div>
 
               <div className="relative p-2">
@@ -54,13 +54,14 @@ const Contacto = () => {
                   name='mail_telefono'
                   type="text"
                   className="w-full bg-gray-100 py-4 pl-10 pr-36 rounded-xl outline-none"
-                  placeholder="Ingresa tu mail o teléfono"
+                  placeholder="Mail o teléfono"
                 />
                 <button
+                  href="#cuerpo"
                   type="submit"
                   className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
                 >
-                <a href="#cuerpo">Enviar</a>  
+                <a>Enviar</a>  
                   
                 </button>
               </div>

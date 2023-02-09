@@ -14,7 +14,7 @@ const Cuerpo=()=>
     const toRotate =["Farmacias independientes", "Droguerías", 
         "Laboratorios"];
     const [delta, setDelta] = useState(300 - Math.random()*100);
-    const period = 2000;
+    const period = 1000;
 
     useEffect(() =>{
         let ticker= setInterval(()=>{
@@ -41,7 +41,7 @@ const Cuerpo=()=>
         } else if(isDeleting && updatedText === ''){
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(1000);
         }
     }
 
@@ -49,27 +49,30 @@ const Cuerpo=()=>
         <section id='cuerpo' className='bg-color_fondo min-h-[90vh] grid grid-cols-1 md:grid-cols-9 '>
            
             {/* información */}
-            <div className='md:col-span-5 flex items-center justify-center p-20 xl:p-36 animate__animated animate__fadeIn'>
+            <div className='mt-8 md:col-span-5 flex items-center justify-center p-20 xl:p-36 animate__animated animate__fadeIn'>
                 
                 <div className={'flex flex-col gap-8'}>
                     <h1 className='text-primary text-5xl font-bold leading-[4rem] '>
                         {'Bajamos precios de los medicamentos integrando'} <span className='wrap text-texto_naranja'> {text} </span>
                     </h1>
                     <p className='text-lg text-primary text-2xl leading-[2.5rem]'>
-                        Bajamos los precios de los medicamentos desde cómo se abastecen las farmacias independientes
-                    </p>
+                    Mejoramos la gestión compra, organización y brecha digital, centralizando la información de tu farmacia.                    </p>
                     <div className='flex flex-col md:flex-row items-center gap-8'>
-                        <button className="button-38">
+                        
+                        <button  className="button-38">
                             {/* referencia al que hacemos para que quede centrado */}
-                            <a id="carac" href="#">
+                            <a id="carac" href="#info">
                                 Más Información
                             </a>
+                            
                         </button>
+                      
                         <button className="w-full xl:w-auto flex  items-center justify-start text-left gap-4 py-2 px-8 rounded-xl 
                                 text-0.5xl hover:text-boton_ingreso transition-colors">
                             <RiPlayFill className="bg-secondary text-primary p-4 rounded-full box-content" />{" "}
                                 Ve nuestro <br /> demo
                         </button>
+                        
                     </div>
                 </div>
                 

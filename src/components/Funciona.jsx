@@ -29,19 +29,21 @@ const Funciona = () => {
                         Prueba en terreno                    
                     </h1>
                     <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
-                        Vamos a tu farmacia para ver tus habitos de compra
+                        Vamos a tu farmacia para ver tus hábitos de compra.
                     </h1>
+                  
+                    <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
+                        Recomendaciones inteligentes                      
+                    </h1>
+                    <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
+                        Con la información de tu farmacia te ayudamos a planificar para comprar mejor.
+                    </h1>
+
                     <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
                         Construcción de hábitos                   
                     </h1>
                     <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
-                        Te ayudamos a alcanzar el monto minimo de los laboratorios
-                    </h1>
-                    <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
-                        Integración proveedor primario y compra directa                      
-                    </h1>
-                    <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
-                        Te conectamos directo para que empieces a comprar y planificarte mejor
+                        Logramos que compres a todo tipo de proveedores de manera sencilla.
                     </h1>
                 </div>
             </div>

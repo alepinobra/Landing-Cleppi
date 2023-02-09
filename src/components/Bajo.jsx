@@ -38,7 +38,7 @@ const Bajo = () => {
               Síguenos!
             </h3>
             {/* barra navegadora de abajo */}
-            <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <nav className="mt-3 flex flex-col md:flex-row items-center justify-between gap-4">
              
               <a
                 href="#aboutUs"
@@ -58,14 +58,16 @@ const Bajo = () => {
               >
                 ¿Cómo lo vamos a lograr?
               </a>
+              <a
+                href=" #services"
+              >
               <button
                 type="button"
                 className="button-37"
               >
-                <a
-                href=" #services"
-              > Contactanos </a>             
+                Contactanos            
                 </button>
+                </a>  
             </nav>
           </div>
           <div className="mt-20">

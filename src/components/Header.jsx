@@ -28,13 +28,15 @@ const  Header = () => {
                 </a>
                 <a href="#aboutUs" className="texto_header">
                     ¿Quiénes somos?
+                    
                 </a>
-                
+                <a href="#services">
                 <button className="button-37">
-                    <a href="#services">
+                   
                         Contacto                
-                    </a> 
-                </button>            
+                     
+                </button>  
+                </a>          
             </nav>
             <nav>
                 <button onClick={() => setShowMenu(!showMenu)} className="text-color_fondo xl:hidden text-2xl p-2 h-[100px] bg-primary">

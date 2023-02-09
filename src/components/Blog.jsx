@@ -5,10 +5,10 @@ const Blog = () => {
         <div id="aboutUs" className="p-8 xl:p-20 bg-color_fondo">
           <div className="mb-8 animate__animated animate__fadeIn">
             <h1 className="text-[40px] font-medium text-primary text-center">
-              blog
+              Blog
             </h1>
             <p className="text-xl text-gray-500 text-center">
-              Mantente informado de los avances de cleppi
+              Mantente informado de los avances de Cleppi
             </p>
           </div>
           {/* noticias */}
