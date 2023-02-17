@@ -497,7 +497,7 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz"
   "version" "1.4.284"
 
-"esbuild@^0.16.3":
+"esbuild@^0.16.14":
   "integrity" "sha512-6xAn3O6ZZyoxZAEkwfI9hw4cEqSr/o1ViJtnkvImVkblmUN65Md04o0S/7H1WNu1XGf1Cjij/on7VO4psIYjkw=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.16.14.tgz"
   "version" "0.16.14"
@@ -792,7 +792,7 @@
   dependencies:
     "postcss-selector-parser" "^6.0.10"
 
-"postcss-selector-parser@^6.0.10":
+"postcss-selector-parser@^6.0.10", "postcss-selector-parser@^6.0.11":
   "integrity" "sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g=="
   "resolved" "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz"
   "version" "6.0.11"
@@ -805,7 +805,7 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.18", "postcss@^8.4.20", "postcss@^8.4.21", "postcss@>=8.0.9":
+"postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.21", "postcss@>=8.0.9":
   "integrity" "sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz"
   "version" "8.4.21"
@@ -940,10 +940,10 @@
   "resolved" "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
   "version" "1.0.4"
 
-"rollup@^3.7.0":
-  "integrity" "sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w=="
-  "resolved" "https://registry.npmjs.org/rollup/-/rollup-3.9.1.tgz"
-  "version" "3.9.1"
+"rollup@^3.10.0":
+  "integrity" "sha512-F9hrCAhnp5/zx/7HYmftvsNBkMfLfk/dXUh73hPSM2E3CRgap65orDNJbLetoiUFwSAk6iHPLvBrZ5iHYvzqsg=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-3.15.0.tgz"
+  "version" "3.15.0"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
@@ -988,10 +988,15 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
-"tailwindcss@^3.2.4":
-  "integrity" "sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ=="
-  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.4.tgz"
-  "version" "3.2.4"
+"sweetalert2@^11.7.1":
+  "integrity" "sha512-+1bnkbqBl64FnZmi3g4SzAi4F3pL3S2jF1YQvrysv4GbgizfeFqGkJopxR3FnV/eJm6w2SQ2oAmCxSIBjgP/ag=="
+  "resolved" "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.7.1.tgz"
+  "version" "11.7.1"
+
+"tailwindcss@^3.2.6":
+  "integrity" "sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw=="
+  "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.6.tgz"
+  "version" "3.2.6"
   dependencies:
     "arg" "^5.0.2"
     "chokidar" "^3.5.3"
@@ -1007,12 +1012,12 @@
     "normalize-path" "^3.0.0"
     "object-hash" "^3.0.0"
     "picocolors" "^1.0.0"
-    "postcss" "^8.4.18"
+    "postcss" "^8.0.9"
     "postcss-import" "^14.1.0"
     "postcss-js" "^4.0.0"
     "postcss-load-config" "^3.1.4"
     "postcss-nested" "6.0.0"
-    "postcss-selector-parser" "^6.0.10"
+    "postcss-selector-parser" "^6.0.11"
     "postcss-value-parser" "^4.2.0"
     "quick-lru" "^5.1.1"
     "resolve" "^1.22.1"
@@ -1042,15 +1047,15 @@
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
 
-"vite@^4.0.0":
-  "integrity" "sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw=="
-  "resolved" "https://registry.npmjs.org/vite/-/vite-4.0.4.tgz"
-  "version" "4.0.4"
+"vite@^4.0.0", "vite@^4.1.1":
+  "integrity" "sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg=="
+  "resolved" "https://registry.npmjs.org/vite/-/vite-4.1.1.tgz"
+  "version" "4.1.1"
   dependencies:
-    "esbuild" "^0.16.3"
-    "postcss" "^8.4.20"
+    "esbuild" "^0.16.14"
+    "postcss" "^8.4.21"
     "resolve" "^1.22.1"
-    "rollup" "^3.7.0"
+    "rollup" "^3.10.0"
   optionalDependencies:
     "fsevents" "~2.3.2"
 

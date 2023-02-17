@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import 'react-sticky-header/styles.css';
+//import 'react-sticky-header/styles.css';
 
 // Icons
 import {

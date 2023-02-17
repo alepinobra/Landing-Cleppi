@@ -3,7 +3,32 @@ import React, { useRef } from 'react';
 import { AiFillInteraction } from "react-icons/ai";
 import { FaBrain, FaObjectUngroup } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
+
+const mensajeExito = () =>{
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    background: '#000050',
+    color: 'white',
+    text: 'Sus datos han sido registrados, lo contactaremos a la brevedad',
+    showConfirmButton: false,
+    timer: 1500
+  })
+};
+
+const mensajeError = () =>{
+  Swal.fire({
+    position: 'center',
+    icon: 'error',
+    background: '#000050',
+    color: 'white',
+    text: 'Ocurrió un error. Aguarde un momento e intente nuevamente.',
+    showConfirmButton: false,
+    timer: 1500
+  })
+};
 
 const Contacto = () => {
   const form = useRef();
@@ -14,8 +39,12 @@ const Contacto = () => {
     emailjs.sendForm('service_xn5nhki', 'template_x4jr13r', form.current, 'EIsQ9ODnZgXyBLsiG')
       .then((result) => {
           console.log(result.text);
+          mensajeExito();
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
+          mensajeError();
+          e.target.reset();
       });
   };
   
@@ -56,7 +85,7 @@ const Contacto = () => {
                   className="w-full bg-gray-100 py-4 pl-10 pr-36 rounded-xl outline-none"
                   placeholder="Mail o teléfono"
                 />
-                <button
+                <button 
                   href="#cuerpo"
                   type="submit"
                   className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
