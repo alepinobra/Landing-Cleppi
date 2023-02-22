@@ -11,7 +11,7 @@ const Cuerpo=()=>
     const[loopNum, setLoopNum]= useState(0);
     const[isDeleting, setIsDeleting] = useState(0);
     const[text, setText] = useState('');
-    const toRotate =["Farmacias independientes", "Droguerías", 
+    const toRotate =["Farmacias", "Droguerías", 
         "Laboratorios"];
     const [delta, setDelta] = useState(300 - Math.random()*100);
     const period = 1000;
@@ -53,10 +53,10 @@ const Cuerpo=()=>
                 
                 <div className={'flex flex-col gap-8'}>
                     <h1 className='text-primary text-5xl font-bold leading-[4rem] '>
-                        {'Bajamos precios de los medicamentos integrando'} <span className='wrap text-texto_naranja'> {text} </span>
+                        {'Apoyamos a tu farmacia independiente en su abastecimiento integrando en un mismo lugar'} <span className='wrap text-texto_naranja'> {text} </span>
                     </h1>
                     <p className='text-lg text-primary text-2xl leading-[2.5rem]'>
-                    Mejoramos la gestión compra, organización y brecha digital, centralizando la información de tu farmacia.                    </p>
+                    Mejoramos la gestión compra, organización y brecha digital; centralizando la información de tu farmacia.                    </p>
                     <div className='flex flex-col md:flex-row items-center gap-8'>
                         
                         <button  className="button-38">

@@ -11,23 +11,22 @@ const Caracteristicas_principales = () => {
                 <div className='flex flex-col md:col-span-3 flex items-center justify-center p-8 xl:p-20 gap-3 animate__animated animate__fadeIn'>
                     <img src="cotizar.png" className="shadow-xl border-l-4 border-gray-300 rounded-full"></img>
                     <h1 className="text-3xl text-primary font-bold font-medium">Cotiza</h1>
-                    <h1 className="text-1xl text-primary font-ligth text-center">Cotiza precios de distintos proveedores de manera rápida y sencilla.
+                    <h1 className="text-1xl text-primary font-ligth text-center">Cotiza precios de tus distintos proveedores de manera rápida y sencilla.
                     </h1>
                 </div>
 
                 <div className='flex flex-col md:col-span-3 flex items-center justify-center p-8 xl:p-20 gap-3 animate__animated animate__fadeIn'>
                     <img src="tiempo.png" className="shadow-xl border-l-4 border-gray-300 rounded-full"></img>
-                    <h1 className="text-3xl text-primary font-bold font-medium">Administra</h1>
-                    <h1 className="text-1xl text-primary font-ligth text-center">Ahorra tiempo para dedicarlo a otras areas 
-                        del negocio.
+                    <h1 className="text-3xl text-primary font-bold font-medium">Los datos en tu poder</h1>
+                    <h1 className="text-1xl text-primary font-ligth text-center">Ve el desempeño de tu farmacia y de tu mix de productos en tiempo real para prepararte y evitar quiebres de stock
                     </h1>
                 </div>
                 
                 <div className='flex flex-col md:col-span-3 flex items-center justify-center p-8 xl:p-20 gap-3 animate__animated animate__fadeIn'>   
                     <img src="precio.png" className="shadow-xl border-l-4 border-gray-300 rounded-full"></img>
-                    <h1 className="text-3xl text-primary font-bold font-medium">Compra</h1>
+                    <h1 className="text-3xl text-primary font-bold font-medium">Ahorro</h1>
                     {/* referencia para el header */}
-                    <h1 id="como" className="text-1xl text-primary font-ligth text-center">Compra de manera fácil a tus proveedores.
+                    <h1 id="como" className="text-1xl text-primary font-ligth text-center">Queremos ayudarte a encontrar los mejores precios con nuestras recomendaciones, ahorrando tiempo y dinero 
                     </h1>
                 </div>
 
