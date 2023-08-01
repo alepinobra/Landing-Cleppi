@@ -26,7 +26,7 @@ const Funciona = () => {
             <div className='md:col-span-5 flex items-center justify-center p-8 xl:p-8 animate__animated animate__fadeIn'>
                 <div className='flex flex-col gap-5'>
                     <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
-                        Queremos conocerte
+                        ¡Queremos conocerte!
                     </h1>
                     <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
                     Vamos a tu farmacia y aprendemos sobre como administras tu negocio y abastecimiento.
