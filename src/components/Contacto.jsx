@@ -53,9 +53,9 @@ const Contacto = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 md:p-12 xl:p-20 bg-color_fondo"
         >
           <div className="flex flex-col gap-4 animate__animated animate__fadeIn">
-            <h1 className="text-[40px] font-bold text-primary">Contáctanos y sé de los primeros en adoptar Cleppi!</h1>
-            <p className="text-[20px] text-gray-500">
-            Cleppi actualmente está en desarrollo y queremos construir una solución que te ayude, si estás interesado a continuación te invitamos ingreses tus datos para que trabajemos juntos en potenciar tu farmacia
+            <h1 className="text-[40px] font-bold text-primary text-center"> Contáctanos y saca todo el potencial de tu farmacia con Cleppi </h1>
+            <p className="text-[20px] text-gray-500 text-center" >
+            Rellena el siguiente formulario para que trabajemos juntos en potenciar tu farmacia de barrio
             </p>
             <form ref={form} onSubmit={sendEmail} className="w-full">
             

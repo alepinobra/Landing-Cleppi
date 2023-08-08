@@ -11,8 +11,7 @@ const Cuerpo=()=>
     const[loopNum, setLoopNum]= useState(0);
     const[isDeleting, setIsDeleting] = useState(0);
     const[text, setText] = useState('');
-    const toRotate =["Farmacias", "Droguerías", 
-        "Laboratorios"];
+    const toRotate =["Cleppi"];
     const [delta, setDelta] = useState(300 - Math.random()*100);
     const period = 1000;
 
@@ -53,16 +52,19 @@ const Cuerpo=()=>
                 
                 <div className={'flex flex-col gap-8'}>
                     <h1 className='text-primary text-5xl font-bold leading-[4rem] '>
-                        {'Apoyamos a tu farmacia independiente en su abastecimiento integrando en un mismo lugar'} <span className='wrap text-texto_naranja'> {text} </span>
+                        {'Apoyamos a tu farmacia de barrio a mejorar su rentabilidad con'} <span className='wrap text-texto_naranja'> {text} </span>
                     </h1>
-                    <p className='text-lg text-primary text-2xl leading-[2.5rem]'>
-                    Mejoramos la gestión compra, organización y brecha digital; centralizando la información de tu farmacia.                    </p>
+                    <p className='text-primary text-2xl leading-[2rem]'>
+                    Cleppi es la solución de gestión integral de compra que aumenta la competitividad de tu farmacia.</p>
+                    <p className='text-primary text-2xl leading-[2rem]'>
+                    Buscamos que tus procesos de compras sean más fáciles y rápidos, aumentando el control de tu mix de productos
+                    </p>
                     <div className='flex flex-col md:flex-row items-center gap-8'>
                         
                         <button  className="button-38">
                             {/* referencia al que hacemos para que quede centrado */}
-                            <a id="carac" href="#info">
-                                Más Información
+                            <a id="carac" href="#aboutUs">
+                                Prueba gratis
                             </a>
                             
                         </button>
@@ -70,7 +72,7 @@ const Cuerpo=()=>
                         <button className="w-full xl:w-auto flex  items-center justify-start text-left gap-4 py-2 px-8 rounded-xl 
                                 text-0.5xl hover:text-boton_ingreso transition-colors">
                             <RiPlayFill className="bg-secondary text-primary p-4 rounded-full box-content" />{" "}
-                                Ve nuestro <br /> demo
+                                Ver video <br />
                         </button>
                         
                     </div>

@@ -25,26 +25,28 @@ const Funciona = () => {
             {/* información */}
             <div className='md:col-span-5 flex items-center justify-center p-8 xl:p-8 animate__animated animate__fadeIn'>
                 <div className='flex flex-col gap-5'>
-                    <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
-                        ¡Queremos conocerte!
+                    <h1 className='text-primary text-3xl font-medium leading-[1rem]'>
+                    Pronostico
                     </h1>
-                    <h1 className='text-lg text-primary text-1xl leading-[1rem]'>
-                    Vamos a tu farmacia y aprendemos sobre como administras tu negocio y abastecimiento.
+                    <h1 className='text-primary text-2xl leading-[2rem]'>
+                    Te recomendamos qué y cuanto comprar en tu farmacia, aumentando la certeza de tu demanda futura
 
                     </h1>
                   
                     <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
-                    Recomendaciones desde y hacia tu farmacia
+                    Central de proveedores
                     </h1>
-                    <h1 className='text-lg text-primary text-1xl leading-[2rem]'>
-                    Nos conectamos a tu sistema para ayudar a planificar tus compras usando algoritmos inteligentes y emitir órdenes de compra en un solo lugar
+                    <h1 className='text-primary text-2xl leading-[2rem]'>
+                    Cotiza, compara y envía intenciones de compra más rápido desde un mismo lugar
+¡Ahorra hasta un 70% de tiempo!
+
                     </h1>
 
                     <h1 className='text-primary text-3xl font-medium leading-[2.5rem]'>
-                    Planificación o inmediatez: lo que necesites
+                    Cotizador de mercado
                     </h1>
-                    <h1 className='text-lg text-primary text-1xl leading-[2rem]'>
-                    Logramos ampliar tu gama de proveedores para que compres de forma planificada y con inmediatez para que no dejes de vender: Laboratorios y droguerías a tu servicio
+                    <h1 className='text-primary text-2xl leading-[2rem]'>
+                    Obtén referencias de precio de la competencia al instante y mantén tus precios de venta actualizados
                     </h1>
                 </div>
             </div>
